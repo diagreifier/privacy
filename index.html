@@ -1,169 +1,45 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>diagReifier · Privacy &amp; Presentation</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Privacy Policy – DiagReifier</title>
+
   <style>
     body {
       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-      line-height: 1.6;
-      color: #1e2a3a;
-      max-width: 880px;
+      line-height: 1.65;
+      color: #333;
+      max-width: 850px;
       margin: 2rem auto;
       padding: 0 1.5rem;
       background-color: #fafafa;
     }
 
     h1, h2, h3 {
-      color: #1e2a3a;
-      font-weight: 600;
-      letter-spacing: -0.01em;
+      color: #2c3e50;
+      line-height: 1.3;
     }
 
     h1 {
-      font-size: 2.4rem;
-      margin-bottom: 0.2rem;
-      border-left: 5px solid #3b82f6;
-      padding-left: 1rem;
-    }
-
-    .subhead {
-      font-size: 1.2rem;
-      color: #3b82f6;
-      font-weight: 400;
-      margin-top: -0.2rem;
-      margin-bottom: 2rem;
-      padding-left: 1.5rem;
+      margin-bottom: 0.5rem;
     }
 
     h2 {
-      font-size: 1.6rem;
-      margin-top: 2.4rem;
-      border-bottom: 1px solid #e9edf2;
-      padding-bottom: 0.4rem;
+      margin-top: 2.2rem;
     }
 
     h3 {
-      font-size: 1.2rem;
-      margin-top: 1.8rem;
-      color: #1e293b;
+      margin-top: 1.5rem;
     }
 
-    p, li {
-      margin-bottom: 0.8rem;
-      color: #2d3c4f;
-    }
-
-    ul, ol {
-      padding-left: 1.6rem;
-      margin-bottom: 1.2rem;
+    p, ul, ol {
+      margin-bottom: 1rem;
     }
 
     li {
-      margin-bottom: 0.4rem;
-    }
-
-    .highlight {
-      background: #eef6ff;
-      padding: 0.2rem 0.4rem;
-      border-radius: 6px;
-      font-weight: 500;
-      color: #1e4b8a;
-    }
-
-    .pill {
-      background: #1e293b;
-      color: white;
-      font-size: 0.75rem;
-      font-weight: 600;
-      padding: 0.2rem 0.8rem;
-      border-radius: 20px;
-      display: inline-block;
-      letter-spacing: 0.02em;
-      text-transform: uppercase;
-      margin-right: 0.3rem;
-    }
-
-    .pill.blue {
-      background: #2563eb;
-    }
-
-    .pill.green {
-      background: #16a34a;
-    }
-
-    .card-grid {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 1.5rem;
-      margin: 1.8rem 0 0.8rem;
-    }
-
-    .card {
-      background: white;
-      border-radius: 16px;
-      padding: 1.5rem 1.8rem;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.04);
-      border: 1px solid #eef2f6;
-      flex: 1 1 200px;
-    }
-
-    .card strong {
-      display: block;
-      font-size: 1.1rem;
-      margin-bottom: 0.4rem;
-      color: #0b1e33;
-    }
-
-    .card small {
-      color: #5b6f84;
-    }
-
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      margin: 1.5rem 0;
-      font-size: 0.95rem;
-      background: white;
-      border-radius: 14px;
-      overflow: hidden;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.02);
-    }
-
-    th {
-      background: #f1f5f9;
-      text-align: left;
-      padding: 0.9rem 1.2rem;
-      font-weight: 600;
-      color: #0b1e33;
-    }
-
-    td {
-      padding: 0.9rem 1.2rem;
-      border-bottom: 1px solid #edf2f7;
-    }
-
-    tr:last-child td {
-      border-bottom: none;
-    }
-
-    .badge {
-      background: #dbeafe;
-      color: #1e4a7a;
-      font-weight: 500;
-      padding: 0.1rem 0.7rem;
-      border-radius: 30px;
-      font-size: 0.8rem;
-      display: inline-block;
-    }
-
-    footer {
-      margin-top: 3.5rem;
-      padding-top: 1.8rem;
-      border-top: 1px solid #e2e8f0;
-      font-size: 0.9rem;
-      color: #5b6f84;
+      margin-bottom: 0.5rem;
     }
 
     a {
@@ -175,217 +51,572 @@
       text-decoration: underline;
     }
 
-    .slogan {
-      font-size: 1.2rem;
-      font-weight: 300;
-      color: #334155;
-      margin-top: 0.25rem;
-      margin-bottom: 1.8rem;
-      padding-left: 1.5rem;
-      border-left: 3px solid #94a3b8;
-      padding-left: 1.2rem;
+    .notice {
+      background: #f1f5f9;
+      border-left: 4px solid #64748b;
+      padding: 1rem 1.2rem;
+      margin: 1.5rem 0;
     }
 
-    hr {
-      border: none;
-      border-top: 1px solid #e2e8f0;
-      margin: 2.5rem 0;
-    }
-
-    .privacy-block {
-      background: #fcfcfd;
-      padding: 0.2rem 1.2rem 1.2rem 1.2rem;
-      border-radius: 18px;
-      border: 1px solid #edf2f7;
-      margin-top: 1.8rem;
-    }
-
-    .privacy-block h2:first-of-type {
-      margin-top: 1.2rem;
-    }
-
-    .muted {
-      color: #5b6f84;
-      font-size: 0.95rem;
+    footer {
+      margin-top: 3rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid #eee;
+      font-size: 0.9rem;
+      color: #777;
     }
   </style>
+
 </head>
+
 <body>
 
-  <!-- ============ PRESENTATION PART ============ -->
-  <h1>diagReifier</h1>
-  <div class="subhead">AI Engineering Platform for Mobile Applications</div>
-  <div class="slogan">“When your code speaks every language”</div>
+  <h1>DIAGREIFIER – Privacy Policy</h1>
 
-  <h2>🚀 Originality &amp; Pioneer Vision</h2>
-  <p><strong>diagReifier</strong> is not a simple mobile development tool; it is the first <strong>contextual and intelligent translation engine</strong> for mobile ecosystems. Its radical originality lies in its ability to understand the <em>intention</em> behind the code, not just its syntax.</p>
+  <p>
+    <em>Last updated: September 22, 2026</em>
+  </p>
+
+  <p>
+    This Privacy Policy explains how DiagReifier ("DiagReifier", "we",
+    "us", or "our") collects, uses, stores, and protects information when
+    you use the DiagReifier desktop application, website, and related
+    services (collectively, the "Service").
+  </p>
+
+  <p>
+    We are committed to protecting user privacy and to processing personal
+    information in accordance with applicable data protection laws,
+    including, where applicable, the European Union General Data Protection
+    Regulation ("GDPR").
+  </p>
+
+  <div class="notice">
+    <strong>Important:</strong> DiagReifier is designed primarily as a
+    software development tool. Source code and project files may be
+    processed locally or transmitted to our AI infrastructure when a
+    feature requires remote processing. Please review the relevant
+    information below before submitting confidential or sensitive material.
+  </div>
+
+  <h2>1. Data Controller</h2>
+
+  <p>
+    The entity responsible for processing your personal data is the
+    DiagReifier operating entity.
+  </p>
+
+  <p>
+    <strong>Company:</strong> DIAGREIFIER<br>
+    <strong>Country:</strong> ITALY<br>
+    <strong>Email:</strong>
+    <a href="mailto:diagreifier@proton.me">diagreifier@proton.me</a>
+  </p>
+
+  <p>
+    If you are located in the European Economic Area ("EEA"), the data
+    controller may be subject to the GDPR and other applicable European
+    data protection legislation.
+  </p>
+
+  <h2>2. Information We Collect</h2>
+
+  <p>
+    Depending on how you use DiagReifier, we may process the following
+    categories of information.
+  </p>
+
+  <h3>2.1 Account Information</h3>
+
+  <p>
+    When you create or use a DiagReifier account, we may collect:
+  </p>
+
   <ul>
-    <li><span class="highlight">Pioneer of “Code Aware”</span> — unlike basic tools, diagReifier analyses architecture, dependencies and patterns to produce native-idiomatic code, not an awkward copy. It does not convert lines; it migrates concepts.</li>
-    <li><strong>Dual intelligent core:</strong>
-      <ul>
-        <li><span class="pill blue">Business Logic Engine</span> — pure, reliable conversion of algorithms (Kotlin↔Swift, Dart→Java, etc.).</li>
-        <li><span class="pill green">UI Intention Engine</span> — unique on the market, it interprets an Android XML layout and transcribes it into SwiftUI / Jetpack Compose, respecting each platform’s design guidelines.</li>
-      </ul>
-    </li>
+    <li>Name or display name;</li>
+    <li>Email address;</li>
+    <li>Account identifier;</li>
+    <li>Authentication information;</li>
+    <li>Subscription and plan information;</li>
+    <li>Account status and relevant service preferences.</li>
   </ul>
 
-  <h2>🏆 Best-in-class technology</h2>
-  <p>diagReifier stands out with a superior, uncompromising technological approach:</p>
+  <h3>2.2 Payment and Billing Information</h3>
+
+  <p>
+    Paid subscriptions may require payment information.
+  </p>
+
+  <p>
+    Payments may be processed by third-party payment providers such as
+    Stripe. We generally do not receive or store your complete payment
+    card number.
+  </p>
+
+  <p>
+    Depending on the payment provider and transaction, we may receive
+    information such as:
+  </p>
+
   <ul>
-    <li><strong>Hybrid &amp; custom AI:</strong>
-      <ul>
-        <li>Best-in-class AI layers for pure code conversion, leveraging the most advanced LLMs.</li>
-        <li><span class="highlight">Business rules layer</span> — a unique, constantly enriched internal knowledge base that maps framework equivalents (Retrofit → Alamofire, Room → Core Data) and corrects LLM idiosyncrasies. This layer guarantees reliability.</li>
-      </ul>
-    </li>
-    <li><strong>“Wow” experience:</strong>
-      <ul>
-        <li>Drag &amp; drop of full projects.</li>
-        <li><strong>Detailed migration report</strong> — a clear overview listing converted files, mapped dependencies, watchpoints and TODOs for the developer.</li>
-        <li><strong>Ready-to-compile output</strong> — download a perfectly structured Android Studio or Xcode project, with Podfile or build.gradle already configured.</li>
-      </ul>
-    </li>
+    <li>Billing name;</li>
+    <li>Billing email address;</li>
+    <li>Transaction identifier;</li>
+    <li>Subscription plan;</li>
+    <li>Payment status;</li>
+    <li>Subscription start and renewal information;</li>
+    <li>Applicable billing or tax information.</li>
   </ul>
 
-  <h2>👥 For every profile</h2>
-  <div class="card-grid">
-    <div class="card">
-      <strong>Solo developer</strong>
-      <small>Multiply your porting speed by 10 — from iOS to Android (and vice versa) or to hybrid.</small>
-    </div>
-    <div class="card">
-      <strong>ESN &amp; studios</strong>
-      <small>Standardise processes, reduce dual-team costs and guarantee code consistency across platforms.</small>
-    </div>
-    <div class="card">
-      <strong>Learners</strong>
-      <small>Understand platform differences by seeing how the same concept is implemented on each side.</small>
-    </div>
-  </div>
+  <p>
+    Stripe's processing of personal data is governed by its own privacy
+    documentation and policies.
+  </p>
 
-  <h2>👑 Market leadership &amp; differentiation</h2>
-  <p>diagReifier has no direct competitor; it creates and dominates its own category.</p>
-  <table>
-    <thead>
-      <tr>
-        <th>Feature</th>
-        <th>Existing solutions<br><small>(Android Studio, etc.)</small></th>
-        <th>diagReifier <span class="badge">Leader</span></th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><strong>Scope</strong></td>
-        <td>1:1 Java↔Kotlin conversion</td>
-        <td>Multi-language (Kotlin, Swift, Java, Dart, JS, Objective-C) and multi-layer (UI, Logic, Resources)</td>
-      </tr>
-      <tr>
-        <td><strong>Intelligence</strong></td>
-        <td>Syntactic, word-for-word</td>
-        <td>Contextual and architectural. Understands the <em>why</em> to better translate the <em>how</em>.</td>
-      </tr>
-      <tr>
-        <td><strong>Result</strong></td>
-        <td>Often verbose, non-idiomatic code</td>
-        <td>Clean, modern, production-ready code</td>
-      </tr>
-      <tr>
-        <td><strong>Integration</strong></td>
-        <td>Confined to an IDE</td>
-        <td>Standalone desktop &amp; web app, fits into any workflow</td>
-      </tr>
-    </tbody>
-  </table>
+  <h3>2.3 Source Code and Project Files</h3>
 
-  <div style="background: #f1f5f9; padding: 1.2rem 1.8rem; border-radius: 16px; margin: 1.8rem 0;">
-    <p style="margin-bottom: 0; font-weight: 500; font-size: 1.1rem;">
-      ⚡ <em>“Never rewrite your app from scratch for another platform again. diagReifier gives you a native, production-quality codebase in minutes.”</em>
-    </p>
-  </div>
+  <p>
+    DiagReifier may allow you to submit source code, project folders,
+    configuration files, text, UI definitions, documentation, or other
+    development materials for features such as code generation, migration,
+    analysis, or debugging.
+  </p>
 
-  <h2>📌 Technical summary</h2>
-  <ul style="list-style: none; padding-left: 0; display: flex; flex-wrap: wrap; gap: 0.8rem 2rem;">
-    <li><span class="pill">Name</span> <strong>diagReifier</strong></li>
-    <li><span class="pill blue">Slogan</span> <em>“When your code speaks every language”</em></li>
-    <li><span class="pill green">Target</span> Independent mobile devs, startups, ESNs, large enterprises</li>
+  <p>
+    These materials may contain personal information or confidential
+    business information. You are responsible for ensuring that you have
+    the necessary rights and authorization to submit such material.
+  </p>
+
+  <p>
+    Where a feature requires remote processing, the relevant data may be
+    transmitted securely to DiagReifier's backend or authorized AI/cloud
+    service providers solely to provide the requested functionality.
+  </p>
+
+  <h3>2.4 Technical and Usage Information</h3>
+
+  <p>
+    We may collect limited technical information necessary to operate,
+    secure, maintain, and improve the Service, such as:
+  </p>
+
+  <ul>
+    <li>Application version;</li>
+    <li>Operating system and platform;</li>
+    <li>Device or installation identifiers where applicable;</li>
+    <li>Crash and diagnostic information;</li>
+    <li>Feature usage information;</li>
+    <li>Performance information;</li>
+    <li>Error logs;</li>
+    <li>Security-related events.</li>
   </ul>
 
-  <hr />
+  <p>
+    Where reasonably possible, we seek to minimize the collection of
+    information that is not necessary for the operation of the Service.
+  </p>
 
-  <!-- ============ PRIVACY POLICY PART ============ -->
-  <div class="privacy-block">
-    <h2>🔒 Privacy Policy</h2>
-    <p><em>Last updated: July 05, 2026</em></p>
+  <h2>3. How We Use Information</h2>
 
-    <p>This Privacy Policy describes how diagReifier ("we", "us", or "our") collects, uses, and protects your information when you use our desktop application and related services.</p>
+  <p>
+    We may process information for the following purposes:
+  </p>
 
-    <h3>1. Information We Collect</h3>
-    <p>We collect the following types of information:</p>
-    <ul>
-      <li><strong>Account Information</strong>: When you subscribe, we collect your name, email address, and billing details via Stripe (our payment processor).</li>
-      <li><strong>Usage Data</strong>: We may collect anonymized data about feature usage (e.g., conversion types, frameworks used) to improve our AI models. <strong>No personal code is stored or transmitted by default.</strong></li>
-      <li><strong>Uploaded Code</strong>: Files or folders you upload for conversion are processed locally or sent securely to our AI backend <strong>only during the conversion session</strong>. We do not retain your source code after processing unless required for error debugging (with your consent).</li>
-    </ul>
+  <ul>
+    <li>To create and manage user accounts;</li>
+    <li>To provide DiagReifier's features and functionality;</li>
+    <li>To process AI-assisted code generation, migration, analysis, and debugging requests;</li>
+    <li>To process subscriptions and payments;</li>
+    <li>To provide customer support;</li>
+    <li>To detect and prevent fraud, abuse, and security incidents;</li>
+    <li>To diagnose technical problems and improve reliability;</li>
+    <li>To maintain and improve the Service;</li>
+    <li>To communicate important service, security, or account information;</li>
+    <li>To comply with legal and regulatory obligations.</li>
+  </ul>
 
-    <h3>2. How We Use Your Information</h3>
-    <ul>
-      <li>To provide and maintain the diagReifier service</li>
-      <li>To process your subscription and manage billing (via Stripe)</li>
-      <li>To improve our AI conversion accuracy and user experience</li>
-      <li>To respond to your support requests</li>
-    </ul>
+  <h2>4. Legal Bases for Processing</h2>
 
-    <h3>3. Data Sharing &amp; Third Parties</h3>
-    <p>We do not sell or rent your personal data.</p>
-    <ul>
-      <li><strong>Stripe</strong>: We use Stripe to process payments. Stripe collects billing information in accordance with its own <a href="https://stripe.com/privacy" target="_blank">Privacy Policy</a>.</li>
-      <li><strong>AI Cloud Infrastructure</strong>: Code conversion may involve secure, encrypted communication with our AI backend hosted on trusted cloud providers (e.g., AWS, Google Cloud). Data is not shared with third parties for advertising or marketing.</li>
-    </ul>
+  <p>
+    Where GDPR applies, we process personal data on one or more of the
+    following legal bases:
+  </p>
 
-    <h3>4. Data Retention</h3>
-    <p>
-      - Account and billing data are retained for the duration of your subscription plus up to 7 years as required by tax law.<br />
-      - Uploaded source code is deleted immediately after conversion unless you opt in to error reporting.<br />
-      - Anonymized usage statistics may be retained indefinitely for product improvement.
-    </p>
+  <ul>
+    <li>
+      <strong>Performance of a contract:</strong>
+      when processing is necessary to provide the Service you requested.
+    </li>
 
-    <h3>5. Your Rights</h3>
-    <p>Depending on your location (e.g., under GDPR or CCPA), you may have the right to:</p>
-    <ul>
-      <li>Access, correct, or delete your personal data</li>
-      <li>Export your data</li>
-      <li>Withdraw consent (where applicable)</li>
-      <li>Opt out of non-essential data processing</li>
-    </ul>
-    <p>To exercise these rights, contact us at <a href="mailto:diagreifier@proton.me">diagreifier@proton.me</a>.</p>
+```
+<li>
+  <strong>Legitimate interests:</strong>
+  for purposes such as security, fraud prevention, service improvement,
+  and technical operations, where those interests are not overridden
+  by your rights.
+</li>
 
-    <h3>6. Security</h3>
-    <p>We implement industry-standard security measures (encryption in transit, access controls) to protect your data. However, no system is 100% secure — use the application at your own discretion, especially with sensitive code.</p>
+<li>
+  <strong>Legal obligations:</strong>
+  where processing is necessary to comply with applicable laws.
+</li>
 
-    <h3>7. Children’s Privacy</h3>
-    <p>diagReifier is not intended for users under 16. We do not knowingly collect data from children.</p>
+<li>
+  <strong>Consent:</strong>
+  where we specifically request your consent and applicable law
+  requires it.
+</li>
+```
 
-    <h3>8. Changes to This Policy</h3>
-    <p>We may update this Privacy Policy from time to time. The updated version will be posted here with a new "Last updated" date.</p>
+  </ul>
 
-    <h3>9. Contact Us</h3>
-    <p>If you have questions about this Privacy Policy or your data, please contact us:</p>
-    <p>
-      Email: <a href="mailto:diagreifier@proton.me">diagreifier@proton.me</a><br />
-      Author | Rubain K.<br />
-      © 2026 diagReifier. All rights reserved.
-    </p>
-  </div>
+  <h2>5. AI Processing</h2>
 
-  <!-- ============ FOOTER ============ -->
+  <p>
+    Some DiagReifier features use artificial intelligence or machine
+    learning systems to process user requests and generate technical
+    results.
+  </p>
+
+  <p>
+    When a feature requires remote AI processing, relevant input may be
+    transmitted to authorized infrastructure used to provide that feature.
+  </p>
+
+  <p>
+    We do not intentionally use your private source code to train public
+    AI models unless we clearly inform you and obtain any consent required
+    by applicable law.
+  </p>
+
+  <p>
+    AI processing may be performed using third-party infrastructure
+    providers. Where applicable, we seek to impose appropriate contractual
+    and security requirements on such providers.
+  </p>
+
+  <h2>6. Source Code Retention</h2>
+
+  <p>
+    DiagReifier is designed to minimize unnecessary retention of source
+    code and project files.
+  </p>
+
+  <p>
+    Unless a particular feature explicitly requires storage, source code
+    submitted for temporary processing is intended to be retained only for
+    the period reasonably necessary to perform the requested operation,
+    troubleshoot the service, or maintain security.
+  </p>
+
+  <p>
+    Certain diagnostic or support features may require temporary retention
+    of technical information. Where appropriate, users may be given
+    controls concerning such processing.
+  </p>
+
+  <p>
+    Because specific processing requirements may vary between features,
+    users should consult the information presented within the relevant
+    DiagReifier feature before submitting particularly sensitive material.
+  </p>
+
+  <h2>7. Personal Data Retention</h2>
+
+  <p>
+    We retain personal information only for as long as reasonably necessary
+    for the purposes described in this Privacy Policy, unless a longer
+    retention period is required or permitted by law.
+  </p>
+
+  <p>
+    Retention periods may vary depending on the type of information.
+  </p>
+
+  <ul>
+    <li>
+      <strong>Account information:</strong>
+      generally retained while your account remains active and for a
+      reasonable period afterward where necessary for legal, security,
+      accounting, or dispute-resolution purposes.
+    </li>
+
+```
+<li>
+  <strong>Billing information:</strong>
+  retained as necessary to comply with applicable accounting, tax,
+  and legal obligations.
+</li>
+
+<li>
+  <strong>Technical logs:</strong>
+  generally retained only for as long as reasonably necessary for
+  security, troubleshooting, and service operations.
+</li>
+
+<li>
+  <strong>Source code:</strong>
+  generally processed for the requested operation and not retained
+  longer than reasonably necessary unless a specific feature or
+  support process requires otherwise.
+</li>
+```
+
+  </ul>
+
+  <h2>8. Data Sharing</h2>
+
+  <p>
+    We do not sell or rent your personal information.
+  </p>
+
+  <p>
+    We may share limited information with service providers when necessary
+    to operate DiagReifier.
+  </p>
+
+  <h3>8.1 Payment Providers</h3>
+
+  <p>
+    We may use Stripe or other authorized payment processors to process
+    subscriptions and payments.
+  </p>
+
+  <p>
+    Stripe may process personal data according to its own privacy practices.
+  </p>
+
+  <h3>8.2 Cloud and Infrastructure Providers</h3>
+
+  <p>
+    We may use reputable cloud infrastructure providers to host and operate
+    portions of the Service.
+  </p>
+
+  <p>
+    Depending on the architecture and feature used, these providers may
+    process technical information, account information, or data required
+    for an AI processing request.
+  </p>
+
+  <h3>8.3 Legal and Security Requirements</h3>
+
+  <p>
+    We may disclose information where reasonably necessary to:
+  </p>
+
+  <ul>
+    <li>Comply with applicable law or a valid legal request;</li>
+    <li>Protect the rights, property, or security of DiagReifier;</li>
+    <li>Protect users or third parties from fraud or security threats;</li>
+    <li>Investigate abuse or violations of our Terms of Service.</li>
+  </ul>
+
+  <h2>9. International Data Transfers</h2>
+
+  <p>
+    Some service providers used by DiagReifier may process information in
+    countries outside your country of residence or outside the European
+    Economic Area.
+  </p>
+
+  <p>
+    Where applicable law requires safeguards for international transfers,
+    we seek to rely on appropriate legal mechanisms, such as adequacy
+    decisions, Standard Contractual Clauses, or other legally recognized
+    safeguards.
+  </p>
+
+  <h2>10. Data Security</h2>
+
+  <p>
+    We implement reasonable technical and organizational measures designed
+    to protect information against unauthorized access, alteration,
+    disclosure, loss, or destruction.
+  </p>
+
+  <p>
+    Depending on the service component, security measures may include:
+  </p>
+
+  <ul>
+    <li>Encryption in transit;</li>
+    <li>Access controls;</li>
+    <li>Authentication mechanisms;</li>
+    <li>Infrastructure security controls;</li>
+    <li>Monitoring and logging;</li>
+    <li>Restricted access to operational systems.</li>
+  </ul>
+
+  <p>
+    However, no internet-based service or storage system can be guaranteed
+    to be completely secure.
+  </p>
+
+  <h2>11. Local Processing</h2>
+
+  <p>
+    Some DiagReifier functionality may operate locally on your device.
+  </p>
+
+  <p>
+    When processing occurs locally, information processed by that feature
+    may remain on your device unless another feature explicitly transmits
+    it to a remote service.
+  </p>
+
+  <p>
+    Users should review the functionality of each feature before submitting
+    sensitive information, as some operations may require cloud or AI
+    processing.
+  </p>
+
+  <h2>12. Cookies and Similar Technologies</h2>
+
+  <p>
+    The DiagReifier website may use cookies or similar technologies where
+    necessary for functionality, security, authentication, analytics, or
+    user preferences.
+  </p>
+
+  <p>
+    Where required by applicable law, non-essential cookies or similar
+    technologies will be used only with the appropriate consent.
+  </p>
+
+  <h2>13. Your Privacy Rights</h2>
+
+  <p>
+    Depending on your jurisdiction, you may have certain rights concerning
+    your personal information.
+  </p>
+
+  <p>
+    Where GDPR applies, these rights may include:
+  </p>
+
+  <ul>
+    <li>The right to access your personal data;</li>
+    <li>The right to correct inaccurate or incomplete information;</li>
+    <li>The right to request deletion of personal data;</li>
+    <li>The right to request restriction of processing;</li>
+    <li>The right to object to certain processing;</li>
+    <li>The right to data portability;</li>
+    <li>The right to withdraw consent where processing is based on consent;</li>
+    <li>The right to lodge a complaint with a competent data protection authority.</li>
+  </ul>
+
+  <p>
+    These rights are subject to applicable legal limitations and exceptions.
+  </p>
+
+  <h2>14. Exercising Your Rights</h2>
+
+  <p>
+    To submit a privacy-related request, contact us at:
+  </p>
+
+  <p>
+    <a href="mailto:diagreifier@proton.me">
+      diagreifier@proton.me
+    </a>
+  </p>
+
+  <p>
+    We may need to verify your identity before processing certain requests
+    in order to protect your account and personal information.
+  </p>
+
+  <p>
+    We aim to respond to valid requests within the time period required by
+    applicable law.
+  </p>
+
+  <h2>15. Children's Privacy</h2>
+
+  <p>
+    DiagReifier is primarily intended for software developers and is not
+    directed toward children.
+  </p>
+
+  <p>
+    We do not knowingly collect personal information from children in
+    violation of applicable law.
+  </p>
+
+  <p>
+    If you believe that a child has provided personal information to us
+    without appropriate authorization, please contact us so that we can
+    take appropriate action.
+  </p>
+
+  <h2>16. Third-Party Links and Services</h2>
+
+  <p>
+    DiagReifier may contain links to third-party websites or services.
+  </p>
+
+  <p>
+    We are not responsible for the privacy practices, security, or content
+    of third-party services. We encourage users to review the privacy
+    policies of any external service they use.
+  </p>
+
+  <h2>17. Business Transfers</h2>
+
+  <p>
+    If DiagReifier or substantially all of its assets are involved in a
+    merger, acquisition, financing, restructuring, sale, or similar
+    transaction, personal information may be transferred as part of that
+    transaction, subject to applicable law.
+  </p>
+
+  <h2>18. Changes to This Privacy Policy</h2>
+
+  <p>
+    We may update this Privacy Policy from time to time to reflect changes
+    in our Service, technology, business practices, or legal requirements.
+  </p>
+
+  <p>
+    When we make changes, we will update the "Last updated" date at the top
+    of this page.
+  </p>
+
+  <p>
+    Where required by applicable law, we will provide additional notice or
+    obtain consent for material changes.
+  </p>
+
+  <h2>19. Contact Us</h2>
+
+  <p>
+    If you have questions, concerns, or requests regarding this Privacy
+    Policy or your personal data, please contact us:
+  </p>
+
+  <p>
+    <strong>DiagReifier</strong><br>
+    Email:
+    <a href="mailto:diagreifier@proton.me">
+      diagreifier@proton.me
+    </a><br>
+    Developer: Rubain F.
+  </p>
+
   <footer>
     <p>
-      <strong>diagReifier</strong> · Author | Rubain · © 2026 diagReifier. All rights reserved.<br />
-      <span class="muted">This tool is designed for development assistance. Generated code may require manual review before production use.</span>
+      © 2026 DiagReifier. All rights reserved.
     </p>
-    <p style="margin-top: 0.6rem;">
-      <a href="mailto:diagreifier@proton.me">diagreifier@proton.me</a>
-    </p>
+
+```
+<p>
+  This Privacy Policy applies to the DiagReifier application,
+  website, and related services to the extent applicable.
+</p>
+```
+
   </footer>
 
 </body>
